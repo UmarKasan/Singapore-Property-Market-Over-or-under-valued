@@ -1,0 +1,109 @@
+# Metadata for Sample Household Survey: Labour Force Participation Rate for HDB Resident Population, by Ethnic Group and Flat Type
+---
+Identifier: '6880f022-931c-4864-80d4-5a8dcc16a43d'
+Name: 'labour-force-participation-rate-for-hdb-population-by-ethnic-group-and-flat-type'
+Title: 'Sample Household Survey: Labour Force Participation Rate for HDB Resident
+  Population, by Ethnic Group and Flat Type'
+Description:
+  - 'Data is derived from the Sample Household Survey (SHS) which is conducted once
+    every 5 years. Data is based on HDB resident population aged 15 years and above.'
+  - ''
+  - 'HDB resident population refers to Singapore citizens and Singapore permanent
+    residents (SPRs) residing in HDB flats, excluding subtenants.'
+  - ''
+  - 'Labour force participation refers to persons who are economically active and'
+  - 'aged 15 years and over, either employed or unemployed during the survey'
+  - 'period.'
+Topics:
+  - 'Infrastructure'
+Keywords:
+  - 'Demography'
+  - 'Ethnic Group'
+  - 'Flat Type'
+  - 'HDB'
+  - 'Housing'
+  - 'Jobs'
+  - 'Manpower'
+  - 'Population'
+  - 'Public Housing'
+  - 'Sample Household Survey'
+Publisher:
+  Name: 'Housing and Development Board'
+  Admin 1:
+    Name: 'Michelle Tay'
+    Department: 'HDB'
+    Email: 'michelle_mb_tay@hdb.gov.sg'
+  Admin 2:
+    Name: 'Toh Xue Qin'
+    Department: 'HDB'
+    Email: 'toh_xue_qin@hdb.gov.sg'
+Sources:
+  - 'Housing and Development Board'
+Source Url: 'http://www.hdb.gov.sg/cs/infoweb/about-us/news-and-publications/publications/hdb-publications'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Other'
+Coverage: '2008-01-01 to 2013-12-31'
+Last Updated: '2017-05-05T07:34:11.573385'
+Resources:
+  -
+    Identifier: '70c7887b-b274-4b73-ada8-1e86818e454c'
+    Title: 'Labour Force Participation Rate of HDB Resident Population by Ethnic Group'
+    Url: 'https://storage.data.gov.sg/labour-force-participation-rate-for-hdb-population-by-ethnic-group-and-flat-type/resources/labour-force-participation-rate-of-hdb-resident-population-by-ethnic-group-2017-03-14T04-07-31Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2013-12-31'
+    Last Updated: '2017-03-14T04:07:31.509871'
+    Schema:
+      -
+        Name: 'shs_year'
+        Title: 'SHS Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'ethnic_group'
+        Title: 'Ethnic Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'gender'
+        Title: 'Gender'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'lfpr'
+        Title: 'Labour Force Participation Rate'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 100, i.e. "100" represents
+          100%'
+  -
+    Identifier: '2974dfbb-4eba-471b-bd4b-f9ad95dcc076'
+    Title: 'Labour Force Participation Rate of HDB Resident Population by Flat Type'
+    Url: 'https://storage.data.gov.sg/labour-force-participation-rate-for-hdb-population-by-ethnic-group-and-flat-type/resources/labour-force-participation-rate-of-hdb-resident-population-by-flat-type-2017-05-05T07-34-10Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2013-12-31'
+    Last Updated: '2017-05-05T07:34:10.510338'
+    Schema:
+      -
+        Name: 'shs_year'
+        Title: 'SHS Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'flat_type'
+        Title: 'Flat Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'gender'
+        Title: 'Gender'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'lfpr'
+        Title: 'Labour Force Participation Rate'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 100, i.e. "100" represents
+          100%'

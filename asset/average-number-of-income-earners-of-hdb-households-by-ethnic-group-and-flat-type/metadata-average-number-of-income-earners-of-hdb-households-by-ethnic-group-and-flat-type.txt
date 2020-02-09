@@ -1,0 +1,150 @@
+# Metadata for Sample Household Survey: Number of Income Earners in HDB Households, by Ethnic Group and Flat Type
+---
+Identifier: 'ac24975a-20de-428b-869a-294429de90cb'
+Name: 'average-number-of-income-earners-of-hdb-households-by-ethnic-group-and-flat-type'
+Title: 'Sample Household Survey: Number of Income Earners in HDB Households, by Ethnic
+  Group and Flat Type'
+Description:
+  - 'Data is derived from the Sample Household Survey (SHS) which is conducted once
+    every 5 years.'
+  - 'Data is rounded off to the nearest 1,000.'
+  - 'Data refers to HDB population aged 15 years and above.'
+Topics:
+  - 'Infrastructure'
+Keywords:
+  - 'Ethnic Group'
+  - 'HDB'
+  - 'Housing'
+  - 'Jobs'
+  - 'Labour'
+  - 'Public Housing'
+  - 'Sample Household Survey'
+Publisher:
+  Name: 'Housing and Development Board'
+  Admin 1:
+    Name: 'Michelle Tay'
+    Department: 'HDB'
+    Email: 'michelle_mb_tay@hdb.gov.sg'
+  Admin 2:
+    Name: 'Toh Xue Qin'
+    Department: 'HDB'
+    Email: 'toh_xue_qin@hdb.gov.sg'
+Sources:
+  - 'Housing and Development Board'
+Source Url: 'http://www.hdb.gov.sg/cs/infoweb/about-us/news-and-publications/publications/hdb-publications'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Other'
+Coverage: '2008-01-01 to 2013-12-31'
+Last Updated: '2017-05-05T07:34:19.359636'
+Resources:
+  -
+    Identifier: '3be23103-8ede-4d63-b4e5-31cb2c8f3c91'
+    Title: 'Average Number of Income Earners by Ethnic Group'
+    Url: 'https://storage.data.gov.sg/average-number-of-income-earners-of-hdb-households-by-ethnic-group-and-flat-type/resources/average-number-of-income-earners-by-ethnic-group-2017-03-10T08-57-37Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2013-12-31'
+    Last Updated: '2017-03-10T08:57:37.459212'
+    Schema:
+      -
+        Name: 'shs_year'
+        Title: 'SHS Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'ethnic_group'
+        Title: 'Ethnic Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number'
+        Title: 'No. of Persons'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Persons'
+  -
+    Identifier: '32cf0af1-4314-45d6-8bb8-50dee16ef796'
+    Title: 'Average Number of Income Earners by Flat Type'
+    Url: 'https://storage.data.gov.sg/average-number-of-income-earners-of-hdb-households-by-ethnic-group-and-flat-type/resources/average-number-of-income-earners-by-flat-type-2017-03-10T08-29-50Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2013-12-31'
+    Last Updated: '2017-03-10T08:29:50.112781'
+    Schema:
+      -
+        Name: 'shs_year'
+        Title: 'SHS Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'flat_type'
+        Title: 'Flat Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number'
+        Title: 'No. of Persons'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Persons'
+  -
+    Identifier: '0c8bd388-24e9-4448-8c88-f7421aa255e0'
+    Title: 'Number of Income Earners by Ethnic Group'
+    Url: 'https://storage.data.gov.sg/average-number-of-income-earners-of-hdb-households-by-ethnic-group-and-flat-type/resources/number-of-income-earners-by-ethnic-group-2017-05-05T07-34-07Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2013-12-31'
+    Last Updated: '2017-05-05T07:34:07.510317'
+    Schema:
+      -
+        Name: 'shs_year'
+        Title: 'SHS Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'ethnic_group'
+        Title: 'Ethnic Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'no_of_income_earners'
+        Title: 'Number of Income Earners'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'percentage'
+        Title: 'Percentage'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 100, i.e. "100" represents
+          100%'
+  -
+    Identifier: '75322179-f383-4e4e-b505-519b768323fe'
+    Title: 'Number of Income Earners by Flat Type'
+    Url: 'https://storage.data.gov.sg/average-number-of-income-earners-of-hdb-households-by-ethnic-group-and-flat-type/resources/number-of-income-earners-by-flat-type-2017-05-05T07-34-18Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2013-12-31'
+    Last Updated: '2017-05-05T07:34:18.382409'
+    Schema:
+      -
+        Name: 'shs'
+        Title: 'Sample Household Survey'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'flat_type'
+        Title: 'Flat Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'no_of_income_earners'
+        Title: 'Number of Income Earners'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'percentage'
+        Title: 'Percentage'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 100, i.e. "100" represents
+          100%'

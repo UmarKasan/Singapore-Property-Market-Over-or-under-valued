@@ -1,0 +1,80 @@
+# Metadata for Sample Household Survey: HDB Resident Population and Growth Rate
+---
+Identifier: 'edeaaa78-a36a-49b5-a2bb-0f90c5b70844'
+Name: 'hdb-resident-population-and-growth-rate-sample-household-survey'
+Title: 'Sample Household Survey: HDB Resident Population and Growth Rate'
+Description:
+  - 'Data is derived from the Sample Household Survey (SHS) which is conducted once
+    every 5 years. Data is rounded off to the nearest 1,000.'
+  - ''
+  - 'HDB resident population refers to Singapore citizens and Singapore permanent
+    residents (SPRs) residing in HDB flats, excluding subtenants.'
+Topics:
+  - 'Infrastructure'
+Keywords:
+  - 'Demography'
+  - 'HDB'
+  - 'Housing'
+  - 'Population'
+  - 'Public Housing'
+  - 'Sample Household Survey'
+Publisher:
+  Name: 'Housing and Development Board'
+  Admin 1:
+    Name: 'Michelle Tay'
+    Department: 'HDB'
+    Email: 'michelle_mb_tay@hdb.gov.sg'
+  Admin 2:
+    Name: 'Toh Xue Qin'
+    Department: 'HDB'
+    Email: 'toh_xue_qin@hdb.gov.sg'
+Sources:
+  - 'Housing and Development Board'
+Source Url: 'http://www.hdb.gov.sg/cs/infoweb/about-us/news-and-publications/publications/hdb-publications'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Other'
+Coverage: '1987-01-01 to 2013-12-31'
+Last Updated: '2017-05-05T07:34:11.720883'
+Resources:
+  -
+    Identifier: '2e9736f5-3e33-4072-b964-2c94aa442d4f'
+    Title: 'HDB Resident Population'
+    Url: 'https://storage.data.gov.sg/hdb-resident-population-and-growth-rate-sample-household-survey/resources/hdb-resident-population-2017-03-14T04-23-30Z.csv'
+    Format: 'CSV'
+    Coverage: '1987-01-01 to 2013-12-31'
+    Last Updated: '2017-03-14T04:23:30.978716'
+    Schema:
+      -
+        Name: 'shs_year'
+        Title: 'SHS Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+        Description: 'The Sample Household Survey is conducted once every 5 years.'
+      -
+        Name: 'hdb_resident_population'
+        Title: 'HDB Resident Population'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Persons'
+  -
+    Identifier: 'a14cb0a3-7bc3-4861-beab-8739630faa92'
+    Title: 'HDB Resident Population Annualised Growth Rate'
+    Url: 'https://storage.data.gov.sg/hdb-resident-population-and-growth-rate-sample-household-survey/resources/hdb-resident-population-annualised-growth-rate-2017-05-05T07-34-10Z.csv'
+    Format: 'CSV'
+    Coverage: '1987-01-01 to 2013-12-31'
+    Last Updated: '2017-05-05T07:34:10.910697'
+    Schema:
+      -
+        Name: 'shs_year'
+        Title: 'SHS Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'annualised_growth_rate'
+        Title: 'HDB Resident Population Annualised Growth Rate'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 100, i.e. "100" represents
+          100%'
